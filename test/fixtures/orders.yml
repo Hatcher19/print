@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  start_date: 2013-04-29
+  end_date: 2013-04-29
+  description: MyText
+  customer_id: 1
+  completed: false
+  whiteboard: MyText
+
+two:
+  name: MyString
+  start_date: 2013-04-29
+  end_date: 2013-04-29
+  description: MyText
+  customer_id: 1
+  completed: false
+  whiteboard: MyText
