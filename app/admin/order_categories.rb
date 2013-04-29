@@ -1,6 +1,6 @@
 ActiveAdmin.register OrderCategory do
 	# Menu item
-  menu :label => "Categories", :parent => "Administration"
+  menu :label => "Order Category", :parent => "Administration"
   index do
   	column :name
   end
