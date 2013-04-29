@@ -1,4 +1,8 @@
 Print::Application.routes.draw do
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
   get "pages/home"
   root :to => 'pages#home'
 
