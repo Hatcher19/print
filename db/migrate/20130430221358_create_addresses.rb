@@ -4,7 +4,8 @@ class CreateAddresses < ActiveRecord::Migration
       t.string :street
       t.string :city
       t.string :state
-      t.string :sip
+      t.string :zip
+      t.string :addressable_type
 
       t.timestamps
     end

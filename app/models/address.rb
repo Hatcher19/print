@@ -1,3 +1,3 @@
 class Address < ActiveRecord::Base
-  attr_accessible :city, :zip, :state, :street
+  attr_accessible :addressable_type, :city, :state, :street, :zip
 end

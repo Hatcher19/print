@@ -1,0 +1,10 @@
+<%=
+semantic_form_for @customer, :builder => ActiveAdmin::FormBuilder do |f| 
+  f.inputs "Customer Information" do 
+    f.input :name 
+		f.input :email
+		f.input :phone
+  render :partial => "addresses/form", :locals => { :form => f } 
+  f.buttons 
+end 
+%>

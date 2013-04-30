@@ -4,10 +4,12 @@ one:
   street: MyString
   city: MyString
   state: MyString
-  sip: MyString
+  zip: MyString
+  addressable_type: MyString
 
 two:
   street: MyString
   city: MyString
   state: MyString
-  sip: MyString
+  zip: MyString
+  addressable_type: MyString
